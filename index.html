@@ -12,29 +12,52 @@
     <form id = "survey-form">
         <div id="form-group"  >
              <!-- * Campos para preencher -->
-            <label id= "namelabe" for ="name" >Name</label>
-            <input type="text" id=name  placeholder="Enter your name" required="preencha esse campo ">
-             </div id=" form-group">
-            <div id=" form-group">
+                 <section id = "users">
+            
+                <label id= "namelabe" for ="name" >Name</label>
+                <input type="text" id=name  placeholder="Enter your name" required="preencha esse campo ">
+                  
+                    
                 <label id = "emaillabel" for = "email" >Email</label>
                 <input type = "text" id="email" placeholder="Enter your email" required="preencha esse campo ">
-            </div id=" form-group">
-            <div id=" form-group">
+                            
                 <label  id = "number-label" for="number">Age</label>
                 <input id = "number" type="text" placeholder="Enter your age">
-            </div id ="form-group">
+            
+    
+                </section>
+            <!-- * -->
            
-                      <div id =" form-group">
-                <p>What you do for living?</p>
-                <select name="role" id="dropdown">
-                    <option disabled="" selected="" value="">Select current role</option>
-                    <option value="Developer">Developer</option>
-                    <option value="Developer">Administrator<option>
-                    <option value="Developer">Engineer</option>
-                    <option value="Developer">Doctor</option>
-                 </select>
-                     </div id = "form-group">
+            <!-- * seletor -->
+                     <section>
+                        <p>What you do for living?</p>
+                        <select name="role" id="dropdown">
+                            <option disabled="" selected="" value="">Select current role</option>
+                            <option value="Developer">Developer</option>
+                            <option value="Developer">Administrator</option>
+                            <option value="Developer">Engineer</option>
+                            <option value="Developer">Doctor</option>
+                         </select>
+                     </section>
+               
+                <!-- * -->
 
+
+                     <section id = "checkbox">
+                        <p>You recomend a friend for this survey?</p>
+                        
+                        <label>
+                            <input type="checkbox"  id="no1" >Definitely
+                        </label>
+                        <label>
+                            <input type="checkbox" id="no2" >Maybe
+                        </label>
+                        <label>
+                            <input type="checkbox" id="no3" >Definitely not
+                        </label>
+                        
+                     </section>
+                       
          
         
 
